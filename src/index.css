@@ -8,12 +8,12 @@ body {
 }
 @layer base {
   h1 {
-    @apply text-H1 
+    @apply lg:text-H1 md:text-H2 text-H2
   }
   h2 {
-    @apply text-H2 
+    @apply lg:text-H2 md:text-H3 text-H3
   }
   h3 {
-    @apply text-H3 
+    @apply lg:text-H3 md:text-P1 text-P1
   }
 }

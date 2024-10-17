@@ -7,13 +7,13 @@ import youtube_logo from '../assets/youtube_logo.svg'
 
 export default function Footer() {
   return(
-    <footer className='bg-footer_white py-12 mt-20 flex justify-around items-center'>
-      <div className="flex flex-col items-center justify-center">
+    <footer className='bg-footer_white py-12 mt-20 flex flex-col md:flex-row justify-around items-center'>
+      <div className="flex flex-col items-center justify-center max-md:mb-5">
         <img src={logo} alt='logo'/>
         <p className='text-P2 font-bold my-2'>Google Developer Student Clubs</p>
         <p>University of California, Davis</p>
       </div>
-      <div className='flex justify-between gap-12'>
+      <div className='flex justify-between gap-12 max-md:mb-5'>
         <ul className='flex flex-col items-center'>
           <li className='font-bold'>Links</li>
           <li className='text-P3 hover:cursor-pointer'>About</li>

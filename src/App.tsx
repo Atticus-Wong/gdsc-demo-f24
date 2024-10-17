@@ -12,7 +12,7 @@ function App() {
     <Navbar />
     <div className="flex justify-center min-h-screen">
       <div className="max-w-[1440px] w-full mx-auto test-H1">
-        <div className='mx-20 px-4'>
+        <div className='mx-20 max-md:mx-12 max-sm:mx-8 px-4'>
           <Section1 />
           <Section2 />
           <Section3 />

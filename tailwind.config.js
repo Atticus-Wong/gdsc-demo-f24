@@ -5,6 +5,11 @@ module.exports = {
     './public/index.html',
   ],
   theme: {
+    screens: {
+      'sm': '576px',
+      'md': '960px',
+      'lg': '1258px',
+    },
     colors: {
       'white': '#FFFFFF',
       'footer_white': '#F9F9F9',
