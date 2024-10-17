@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex items-center justify-center w-full h-16 py-12 mt-5 relative">
-      <div className='flex items-center justify-between max-lg:mx-20 mx-4 px-12 w-full py-8'>
+      <div className='flex items-center justify-between mx-20 max-sm:mx-4 px-12 max-md:px-6 w-full py-8'>
         <div>
           <img src={logo} alt="Logo" className="h-8" />
         </div>

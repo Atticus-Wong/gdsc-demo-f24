@@ -7,7 +7,7 @@ import S3_blue from '../assets/S3_blue.svg'
 export default function Section3() {
   return(
     <div className="flex max-md:flex-col max-md:items-start items-center mt-32">
-      <div className="w-1/2 flex flex-col gap-4 items-start max-md:items-center max-md:w-full max-md:flex-row max-md:mb-10 max-sm:flex-col">
+      <div className="w-1/2 flex flex-col gap-4 items-start max-md:items-center max-md:w-full max-md:flex-row max-md:mb-10 max-sm:flex-col max-md:overflow-x-scroll">
         <img src={S3_1} alt='S3_2' className='size-10/12 max-md:size-3/4 max-sm:size-full'/>
         <img src={S3_2} alt='S3_2' className='size-10/12 max-md:size-3/4 max-sm:size-full'/>
       </div>
